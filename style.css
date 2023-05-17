@@ -91,7 +91,7 @@ main{
     flex-direction: column;
     position: absolute;
     left: 820px;
-    top: 300px;
+    top: 420px;
 }
 
 
@@ -135,8 +135,11 @@ main{
     top: 402px;
     position: relative;
     font-size: 16px;
+    display: none;
+    
 
 }
+
 
 
 .textoinformativo{

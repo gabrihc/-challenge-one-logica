@@ -10,7 +10,8 @@ function btnEncriptar(){
     mensaje.style.background="none";
     document.getElementById("textoalerta").style.display="none";
     document.getElementById("textoingresar").style.display="none";
-
+    document.getElementById("botoncopiar").style.display="show";
+    document.getElementById("botoncopiar").style.display="inherit";
 }
 
 function encriptar(stringEncriptada){
