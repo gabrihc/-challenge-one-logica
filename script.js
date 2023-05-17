@@ -15,7 +15,7 @@ function btnEncriptar(){
 }
 
 function encriptar(stringEncriptada){
-    let matrizCodigo=[["a","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
+    let matrizCodigo=[["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringEncriptada=stringEncriptada.toLowerCase();
     for(let i=0;i<matrizCodigo.length;i++){
         if(stringEncriptada.includes(matrizCodigo[i][0])){
@@ -33,12 +33,18 @@ function btndesencriptar(){
     const textoEncriptado=desencriptar(textArea.value);
     mensaje.value=textoEncriptado;
     textArea.value="";
+    mensaje.style.backgroundImage="none";
+    mensaje.style.background="none";
+    document.getElementById("textoalerta").style.display="none";
+    document.getElementById("textoingresar").style.display="none";
+    document.getElementById("botoncopiar").style.display="show";
+    document.getElementById("botoncopiar").style.display="inherit";
     
 
 }
 
 function desencriptar(stringdesencriptada){
-    let matrizCodigo=[["a","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
+    let matrizCodigo=[["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     stringdesencriptada=stringdesencriptada.toLowerCase();
     for(let i=0;i<matrizCodigo.length;i++){
         if(stringdesencriptada.includes(matrizCodigo[i][1])){
