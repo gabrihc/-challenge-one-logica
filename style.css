@@ -149,3 +149,35 @@ main{
    margin: 30px;
 }
 
+.pieInfo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.githubLogo{
+    width: 45px;
+    height: 35px;
+    margin-top: 20px;
+    border-radius:150px;
+
+}
+
+.linkedinLogo{
+    width: 45px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius:150px;
+
+}
+
+.pieAutor{
+    text-align: center;
+    font-size: 14px;
+    color: #495057;
+    opacity: 0.9;
+   
+
+}
+
